@@ -12,7 +12,7 @@ func (val *JEnvString) UnmarshalJSON(data []byte) error {
 	env, err := getenv(data)
 
 	if err != nil {
-		*val = JEnvString(data)
+		*val = JEnvString(env)
 		return nil
 	}
 
