@@ -21,7 +21,7 @@
 import (
 	"encoding/json"
 
-	lj "github.com/wontw/jenv/pkg/json"
+	lj "github.com/webornottoweb/jenv/pkg/json"
 )
 
 type User struct {

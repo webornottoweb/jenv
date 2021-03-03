@@ -1,4 +1,4 @@
-module github.com/wontw/jenv
+module github.com/webornottoweb/jenv
 
 go 1.14
 
