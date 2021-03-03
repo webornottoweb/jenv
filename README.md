@@ -62,3 +62,10 @@ func main() {
 > Notice that you should have .env file with provided `USER_NAME` and `USER_BOOL` variables
 
 > Result: `{123 name from env true}`
+
+---
+
+### Tasks
+
+- implement raw array values parsing (strings/integers/booleans)
+- tests cover
