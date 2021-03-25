@@ -20,7 +20,7 @@ func getenv(data []byte) ([]byte, error) {
 	data = []byte(strings.Trim(string(data), "\"'"))
 
 	if !strings.HasPrefix(string(data), "env[") || !strings.HasSuffix(string(data), "]") {
-		// return raw value if no env representation found
+		// return raw value if no env representation found.
 		return data, errors.New("Env key is not represented within data bytes array")
 	}
 
